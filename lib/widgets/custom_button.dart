@@ -4,21 +4,32 @@ import 'package:flutter/material.dart';
 class CustomButton extends StatelessWidget {
   String title;
   double size;
+  double height;
+  double width;
   VoidCallback onTap;
 
-  CustomButton({required this.title, required this.size, required this.onTap});
+  CustomButton(
+      {required this.title,
+      required this.size,
+      required this.height,
+      required this.width,
+      required this.onTap});
 
   @override
   Widget build(BuildContext context) {
     return Container(
+      width: width,
+      height: height,
       decoration: BoxDecoration(
           color: AllColors.primaryColor,
           borderRadius: BorderRadius.circular(10.0)),
-      child: Text(
-        title,
-        style: TextStyle(
-          color: AllColors.whiteColor,
-          fontSize: size,
+      child: Center(
+        child: Text(
+          title,
+          style: TextStyle(
+            color: AllColors.whiteColor,
+            fontSize: size,
+          ),
         ),
       ),
     );
