@@ -6,4 +6,5 @@ class AllColors {
   static final whiteColor = const Color(0xffffffff);
   static final blackColor = const Color(0xff000000);
   static final starColor = const Color(0xffFCBF0C);
+  static final transparentColor = Colors.transparent;
 }
