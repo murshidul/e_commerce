@@ -46,7 +46,7 @@ class LoginScreen extends StatelessWidget {
                   ),
                   Text(
                     "been missed!",
-                    style: AllStyles.headingTextStyle,
+                    style: AllStyles.titleTextStyle,
                     textAlign: TextAlign.center,
                   ),
                   SizedBox(

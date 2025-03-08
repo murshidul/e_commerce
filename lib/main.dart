@@ -1,5 +1,4 @@
 import 'package:e_commerce/screens/login_screen.dart';
-import 'package:e_commerce/screens/welcome_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
