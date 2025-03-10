@@ -80,7 +80,7 @@ class _AddToCartScreenState extends State<AddToCartScreen> {
                               SizedBox(
                                 width: 5,
                               ),
-                              Image.asset("assets/images/small_cross.png"),
+                              Image.asset("assets/images/small_cross_n.png"),
                               Text(
                                 "45,000",
                                 style: TextStyle(
@@ -127,19 +127,19 @@ class _AddToCartScreenState extends State<AddToCartScreen> {
                             : unselectedNumber("0"),
                         selected == 1
                             ? selectedNumber("1")
-                            : unselectedNumber("0"),
+                            : unselectedNumber("1"),
                         selected == 2
                             ? selectedNumber("2")
-                            : unselectedNumber("0"),
+                            : unselectedNumber("2"),
                         selected == 3
                             ? selectedNumber("3")
-                            : unselectedNumber("0"),
+                            : unselectedNumber("3"),
                         selected == 4
                             ? selectedNumber("4")
-                            : unselectedNumber("0"),
+                            : unselectedNumber("4"),
                         selected == 5
                             ? selectedNumber("5")
-                            : unselectedNumber("0"),
+                            : unselectedNumber("5"),
                       ],
                     ),
                     SizedBox(
