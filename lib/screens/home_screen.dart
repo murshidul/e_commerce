@@ -79,7 +79,7 @@ class HomeScreen extends StatelessWidget {
                         ),
                         Expanded(
                           flex: 1,
-                          child: Image.asset("assets/images/t-shirt.jpeg"),
+                          child: Image.asset("assets/images/t-shirt.png"),
                         ),
                       ],
                     ),
@@ -133,8 +133,10 @@ class HomeScreen extends StatelessWidget {
               SizedBox(
                 height: 13.0,
               ),
-              Expanded(
+              SizedBox(
                 child: GridView.builder(
+                  shrinkWrap: true,
+                    physics: NeverScrollableScrollPhysics(),
                     padding: EdgeInsets.zero,
                     gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                       crossAxisCount: 2,

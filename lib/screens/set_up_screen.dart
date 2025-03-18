@@ -75,7 +75,6 @@ class SetUpScreen extends StatelessWidget {
                         top: 70.0,
                         left: 95.0,
                         child: Container(
-                          color: AllColors.whiteColor,
                           height: 30.0,
                           width: 30.0,
                           decoration: BoxDecoration(

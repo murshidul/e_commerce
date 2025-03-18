@@ -37,6 +37,8 @@ dependencies:
   cupertino_icons: ^1.0.8
   get:
   carousel_slider: ^5.0.0
+  firebase_core:
+  firebase_auth:
 
 dev_dependencies:
   flutter_test:

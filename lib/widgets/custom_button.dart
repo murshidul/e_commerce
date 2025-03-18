@@ -17,18 +17,21 @@ class CustomButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      width: width,
-      height: height,
-      decoration: BoxDecoration(
-          color: AllColors.primaryColor,
-          borderRadius: BorderRadius.circular(10.0)),
-      child: Center(
-        child: Text(
-          title,
-          style: TextStyle(
-            color: AllColors.whiteColor,
-            fontSize: size,
+    return InkWell(
+      onTap: onTap,
+      child: Container(
+        width: width,
+        height: height,
+        decoration: BoxDecoration(
+            color: AllColors.primaryColor,
+            borderRadius: BorderRadius.circular(10.0)),
+        child: Center(
+          child: Text(
+            title,
+            style: TextStyle(
+              color: AllColors.whiteColor,
+              fontSize: size,
+            ),
           ),
         ),
       ),
